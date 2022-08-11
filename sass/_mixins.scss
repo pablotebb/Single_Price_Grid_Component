@@ -1,0 +1,39 @@
+@mixin dimension-color-etc-community(
+  $font-size: unset,
+  $color: unset,
+  $font-weight: unset,
+  $line-height: unset,
+  $padding-bottom: unset
+) {
+  font-size: $font-size;
+  color: $color;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  padding-bottom: $padding-bottom;
+}
+
+@mixin dimension-color-etc-subscription(
+  $font-size: unset,
+  $color: unset,
+  $font-weight: unset,
+  $padding-bottom: unset
+) {
+  font-size: $font-size;
+  color: $color;
+  font-weight: $font-weight;
+  padding-bottom: $padding-bottom;
+}
+
+@mixin dimension-color-etc-why-us(
+  $font-size: unset,
+  $color: unset,
+  $font-weight: unset,
+  $line-height: unset,
+  $padding-bottom: unset
+) {
+  font-size: $font-size;
+  color: $color;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  padding-bottom: $padding-bottom;
+}

@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,700;1,400&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  background-color: hsl(204deg, 43%, 93%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+.main-container {
+  width: 311px;
+  height: 723px;
+  margin: 69px auto 77px;
+}
+
+.section-community {
+  height: 250px;
+  padding: 33px 26px 39px 26px;
+  background-color: #fff;
+  border-radius: 10px 10px 0;
+}
+.section-community__title {
+  font-size: 1.125em;
+  color: hsl(179deg, 62%, 43%);
+  font-weight: 700;
+  line-height: unset;
+  padding-bottom: 30px;
+}
+.section-community__subtitle {
+  font-size: 0.8125em;
+  color: hsl(71deg, 73%, 54%);
+  font-weight: unset;
+  line-height: unset;
+  padding-bottom: 20px;
+}
+.section-community__description {
+  font-size: 0.75em;
+  color: hsl(218deg, 22%, 67%);
+  font-weight: 1;
+  line-height: 20px;
+  padding-bottom: 8px;
+}
+
+.section-subscription {
+  height: 197px;
+  padding: 20px 25px 25px 26px;
+  background-color: hsl(179deg, 62%, 43%);
+}
+.section-subscription__title {
+  font-size: 1em;
+  color: hsl(204deg, 43%, 93%);
+  font-weight: 400;
+  padding-bottom: 12px;
+}
+.section-subscription__dollars {
+  font-size: 1.5625em;
+  color: #fff;
+  font-weight: unset;
+  padding-bottom: unset;
+}
+.section-subscription__period {
+  font-size: 0.875em;
+  color: hsl(218deg, 22%, 67%);
+  font-weight: 0.1;
+  padding-bottom: unset;
+}
+.section-subscription div {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding-bottom: 7px;
+}
+.section-subscription__subtitle {
+  font-size: 0.875em;
+  color: hsl(204deg, 43%, 93%);
+  font-weight: 0.1;
+  padding-bottom: 26px;
+}
+.section-subscription__button {
+  height: 42px;
+  width: 100%;
+  background-color: hsl(71deg, 73%, 54%);
+  border-style: none;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.section-why-us {
+  height: 205px;
+  background-color: #4abebd;
+  padding: 30px 107px 28px 27px;
+  border-radius: 0 0 10px 10px;
+}
+.section-why-us__title {
+  font-size: 1em;
+  color: hsl(204deg, 43%, 93%);
+  font-weight: 700;
+  line-height: unset;
+  padding-bottom: 15px;
+}
+.section-why-us__description {
+  font-size: 0.75em;
+  color: #8ee4e5;
+  font-weight: 0.1;
+  line-height: 20px;
+  padding-bottom: unset;
+}
+
+/*# sourceMappingURL=styles.css.map */
