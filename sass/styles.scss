@@ -7,7 +7,7 @@
   // border: 1px solid red;
   width: 311px;
   height: 723px;
-  margin: 69px auto 77px;
+  margin: 69px auto 30px;
 }
 
 .section-community {
@@ -15,7 +15,7 @@
   height: 250px;
   padding: 33px 26px 39px 26px;
   background-color: variables.$White;
-  border-radius: 10px 10px 0;
+  border-radius: 10px 10px 0 0;
   &__title {
     @include mixins.dimension-color-etc-community(
       // font-size
@@ -157,5 +157,35 @@
       // line-height
       20px
     );
+  }
+}
+
+@media (min-width: 1440px) {
+  .main-container {
+    // border: 1px solid red;
+    width: 640px;
+    // height: 455px;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .section-community {
+    // height: 202px;
+    font-size: 1.2em;
+    height: 100%;
+    padding: 47px 80px 30px 42px;
+    grid-column: 1 / 3;
+  }
+
+  .section-subscription {
+    font-size: 1.23em;
+    height: 100%;
+    border-radius: 0 0 0 10px;
+  }
+
+  .section-why-us {
+    height: 100%;
+    border-radius: 0 0 10px 0;
   }
 }
