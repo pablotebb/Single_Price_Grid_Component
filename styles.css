@@ -21,9 +21,10 @@ body {
 }
 
 .main-container {
+  border: 1px solid red;
   width: 311px;
   height: 723px;
-  margin: 69px auto 30px;
+  margin: 164px auto 30px;
 }
 
 .section-community {
